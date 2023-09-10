@@ -41,9 +41,9 @@ app.use("/api/mmpp/", mmppRoutes);
 app.use("/api/subproducto/", subProductosRoutes);
 app.use("/api/make/",produccionRoutes);
 
-
-
-
+app.get("/", (res,req)=>{
+    res.send("la pagina de Inicio")
+});
 
 
 //hacer que escuche
