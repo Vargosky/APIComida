@@ -48,7 +48,6 @@ app.get("/", (res,req)=>{
 
 //hacer que escuche
 
-app.listen(port, () => {
-    console.log("servidor de node corriendo en el puerto " + port);
-})
+module.exports = app;
+
 
