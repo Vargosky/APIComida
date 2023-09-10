@@ -6,8 +6,8 @@ const cors = require("cors")
 //creamos el servidor
 
 const app = express();
-const port = 3001;
-
+//const port = 3001;
+const port = process.env.PORT || 4000;
 //consfigurar el cors
 
 // app.use(cors());
