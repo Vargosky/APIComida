@@ -26,7 +26,7 @@ app.use(express.urlencoded({ extended: true }));
 
 //conexion a la bd
 
-console.log("BIENVENIDO A LA API")
+// console.log("BIENVENIDO A LA API")
 connection();
 
 //rutas
