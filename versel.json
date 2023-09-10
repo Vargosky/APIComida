@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "mi-api",
+    "name": "api-redsocial",
     "builds": [
     {
         "src": "index.js",
