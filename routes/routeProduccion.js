@@ -3,7 +3,7 @@ const multer = require("multer");
 const router = express.Router();
 const ProduccionController =  require("../controllers/ctrlProduccion");
 
-const {
+export const {
   crearProduccion,
   obtenerProducciones,
   obtenerProduccionPorId,
