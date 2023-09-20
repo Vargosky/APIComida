@@ -32,8 +32,8 @@ connection();
 //rutas
 const userRoutes = require("./routes/pathUser.js");
 const mmppRoutes= require("./routes/routeMateriaPrima");
-const subProductosRoutes = require("./routes/routeSubproducto");
-const produccionRoutes = require("./routes/routeProduccion");
+// const subProductosRoutes = require("./routes/routeSubproducto");
+// const produccionRoutes = require("./routes/routeProduccion");
 
 
 app.use("/api/user", userRoutes);
