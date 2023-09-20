@@ -35,6 +35,7 @@ const mmppRoutes= require("./routes/routeMateriaPrima");
 // const subProductosRoutes = require("./routes/routeSubproducto");
 // const produccionRoutes = require("./routes/routeProduccion");
 
+console.log(userRoutes);
 
 app.use("/api/user", userRoutes);
 app.use("/api/mmpp/", mmppRoutes);

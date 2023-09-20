@@ -145,13 +145,9 @@ const getRawMaterialsPaginated = async (req, res) => {
 };
 
 
-
-
-module.exports = { buscarPorNombre };
-
-
 module.exports = {
     getAllRawMaterials,
+    buscarPorNombre,
     getRawMaterialById,
     createRawMaterial,
     updateRawMaterial,
