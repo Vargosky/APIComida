@@ -1,10 +1,8 @@
 const Produccion = require('../model/Produccion'); // Ajusta la ruta
 
 const crearProduccion = async (req, res) => {
-    console.log(req);
     try {
         const produccion = new Produccion(req.body);
-        console.log(produccion);
         await produccion.save();
         res.status(201).send(produccion);
     } catch (error) {
