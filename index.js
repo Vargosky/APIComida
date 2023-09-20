@@ -38,8 +38,8 @@ const produccionRoutes = require("./routes/routeProduccion");
 
 app.use("/api/user", userRoutes);
 app.use("/api/mmpp/", mmppRoutes);
-app.use("/api/subproducto/", subProductosRoutes);
-app.use("/api/make/",produccionRoutes);
+// app.use("/api/subproducto/", subProductosRoutes);
+// app.use("/api/make/",produccionRoutes);
 
 app.get("/", (res,req)=>{
     res.send("la pagina de Inicio")
